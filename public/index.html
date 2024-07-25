@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encurtador de URLs</h1>
+        <input type="text" id="url" placeholder="Cole a URL aqui">
+        <button id="shorten-btn">Encurtar</button>
+        <div id="result"></div>
+
+        <h2>Histórico de URLs Encurtadas</h2>
+        <button id="history-btn">Mostrar Histórico</button>
+        <div id="history"></div>
+
+        <h2>Estatísticas de Cliques</h2>
+        <button id="stats-btn">Mostrar Estatísticas</button>
+        <div id="stats-result"></div>
+    </div>
+    <script src="shorten.js"></script>
+    <script src="history.js"></script>
+    <script src="stats.js"></script>
+</body>
+</html>
